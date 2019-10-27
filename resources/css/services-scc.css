@@ -1,0 +1,370 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+    width: 40%;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.services,
+.aboutus,
+.contacts,
+.pattern4 {
+    background-image: url("img/background-services2.jpg");
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.aboutus {
+    background-image: url("img/background-aboutus.jpg");
+}
+
+.contacts {
+    background-image: url("img/background-contacts.jpg");
+    
+    
+}
+.pattern4 {
+     background-image: url("img/pattern4.jpg");
+}
+.news-page {
+    background-image: url("img/cupcakes-2887270_1920.jpg");
+}
+
+.icon-content-page {
+    padding-top: 50px;
+}
+
+.fulldaygarden-page .icon-content-page .fa-bell,
+.fulldaygarden-page .icon-content-page .fa-braille,
+.fulldaygarden-page .icon-content-page .fa-buromobelexperte,
+.fulldaygarden-page .icon-content-page .fa-school,
+.fulldaygarden-page .icon-content-page .fa-info-circle
+{
+    font-size: 3.5rem;
+    color: #515151;
+    margin-bottom: 20px;
+}
+
+.head-content-pages {
+    font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	font-size: 2.0rem;
+    text-align: center;
+    color: #515151;
+}
+
+.content-page {
+    margin: 10px auto;
+    width: 700px;
+    border-radius: 50px;
+    background-color: #fff;
+    
+}
+@media (min-width: 320px) {
+    .content-page {
+        width: 300px;
+    }
+}
+@media (min-width: 700px) {
+    .content-page {
+        width: 600px;
+    }
+}
+@media (min-width: 1140px) {
+    .content-page {
+        width: 700px;
+    }
+}
+
+.text-content {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.text-content p  {
+    font-family: 'Roboto', sans-serif;
+    text-indent: 10px;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 2rem;
+    color: #515151;
+}
+
+.text-content p:nth-of-type(1) {
+    margin-top: 20px;
+}
+.text-content .text-contacts:nth-of-type(1) {
+     margin-top: 0px;
+}
+
+.text-content-contacts p {
+    
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2rem;
+    text-indent: 0;
+}
+
+.img-services {
+    margin-top: 10px;
+    box-shadow:rgba(50, 50, 50, 0.75) 6px 0px 12px -7px, rgba(50, 50, 50, 0.75) -6px 0px 12px -7px;
+    border-radius: 20px;
+}
+@media (min-width: 320px) {
+    .img-services {
+        width: 220px;
+    }
+}
+@media (min-width: 700px) {
+    .img-services {
+        width: 525px;
+    }
+}
+@media (min-width: 1140px) {
+    .img-services {
+        width: 535px;
+    }
+}
+
+.head-content-block {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    color: #515151;
+    font-size: 1.6rem;
+    
+}
+
+.fulldaygarden-items {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #515151;
+}
+
+.fulldaygarden-page .content-page:nth-of-type(2) {
+    margin-top: 10px;
+}
+
+.fulldaygarden-items li {
+    margin-left: 30px;
+}
+
+.fulldaygarden-items .head-content-block {
+    margin-top: 20px;
+}
+
+.fulldaygarden-items li {
+    font-family: 'Roboto', sans-serif;
+}
+.map-contacts {
+    width: 600px;
+    height: 500px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+@media (min-width: 320px) {
+    .map-contacts {
+    width:240px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+        
+    }
+}
+@media (min-width: 700px) {
+    .map-contacts {
+    width: 535px;
+    height: 500px;
+    border-radius: 50px;
+    margin-bottom: 50px;  
+    }
+}
+@media (min-width: 1140px) {
+    .map-contacts {
+    width: 600px;
+    height: 500px;
+    border-radius: 50px;
+    margin-bottom: 50px; 
+    }
+}
+
+.text-content .date-news {
+    margin-right: 15px;
+    font-size: 1.0rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(81, 81, 81, 0.49);
+    text-align: right;
+   
+}
+.italic-news {
+    font-style: oblique;
+    text-align: center;
+}
+
+
+.correction--content-page {
+    margin-top: 20px;
+}
+/*Страница news.html*/
+.news-page {
+    background-image: url("img/cupcakes-2887270_1920.jpg");
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.all-news-page-news {
+    margin-bottom: 50px;
+}
+.all-news-page-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 1060px;
+}
+
+@media (min-width: 320px) {
+.all-news-page-news { 
+    width: 300px;
+    justify-content: space-around;}
+}
+
+@media (min-width: 640px) {
+.all-news-page-news { 
+    width: 600px;
+    justify-content: space-around;}
+}
+
+@media (min-width: 740px) {
+.all-news-page-news { 
+    width: 600px;
+    justify-content: space-around;
+    }
+}
+
+@media (min-width: 800px) {
+.all-news-page-news { 
+    width: 600px; 
+    justify-content: space-around;
+
+    }
+    
+}
+
+@media (min-width: 960px) {
+.all-news-page-news { 
+    width: 800px; 
+    justify-content: flex-start;
+    }
+    
+}
+
+@media (min-width: 1140px) {
+.all-news-page-news { 
+    width: 1060px; }
+}
+
+.all-news-page-news .layout-column-1,
+.all-news-page-news .layout-column-2,
+.all-news-page-news .layout-column-3,
+.all-news-page-news .layout-column-4,
+.all-news-page-news .layout-column-5 {
+   width: 250px;
+   margin-top: 20px;
+   padding-top: 3px;
+   background-color: #ffffff;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+   font-size: 1.5rem;
+   border: 1px solid #ff9d2a;
+}
+
+
+
+@media (min-width: 320px) {
+    .all-news-page-news .layout-column-1 {
+         margin-left: 0;
+    }
+}
+
+@media (min-width: 640px) {
+    .all-news-page-news .layout-column-1 {
+         margin-left: 0;
+    }
+}
+
+@media (min-width: 740px) {
+    .all-news-page-news .layout-column-1 {
+       margin-left: 20px; 
+    }
+}
+
+@media (min-width: 800px) {
+    .all-news-page-news .layout-column-1 {
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width: 960px) {
+.all-news-page-news .layout-column-4,
+.all-news-page-news .layout-column-3 {
+   margin-left: 20px;
+}
+}
+
+@media (min-width: 1140px) {
+.all-news-page-news .layout-column-4,
+.all-news-page-news .layout-column-2,
+.all-news-page-news .layout-column-3 {
+    margin-left: 20px;
+} 
+}
+
+
+
+.all-news-page-news .layout-column-1 {
+  order: 5;
+}
+
+.all-news-page-news .layout-column-2 {
+  order: 4;
+}
+
+.all-news-page-news .layout-column-3 {
+  order: 3;
+}
+
+.all-news-page-news .layout-column-4 {
+  order: 2;
+}
+
+.all-news-page-news .layout-column-5 {
+  order: 1;
+}

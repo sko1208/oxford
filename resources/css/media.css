@@ -1,0 +1,296 @@
+/*
+@media (min-width: 320px) {
+     .footer-contacts .footer-contacts-header,
+.footer-map-block .footer-contacts-header,
+.footer-link-contact-page {
+    font-size: 1.0rem
+}
+.btn-main {
+    font-size: 0.8rem;
+}
+.footer-map-block {
+    display: none;
+}
+.btn-main:link,
+.btn-main:visited {
+    font-size: 1.5rem;
+
+}
+*/
+
+    }
+/*
+@media (min-width: 768px) {
+    .footer-contacts .footer-contacts-header,
+.footer-map-block .footer-contacts-header,
+.footer-link-contact-page {
+    font-size: 1.0rem
+}
+.btn-main {
+    font-size: 1.0rem;
+}
+
+.btn-main:link,
+.btn-main:visited {
+    font-size: 1.5rem;
+
+}
+
+}
+
+*/
+@media (min-width: 1100px) {
+
+
+}
+/*
+@media (min-width: 1224px) {
+    .footer-contacts .footer-contacts-header,
+.footer-map-block .footer-contacts-header,
+.footer-link-contact-page {
+    font-size: 1.0rem
+}
+.btn-main {
+    font-size: 1.5rem;
+}
+.footer-map-block {
+    display: flex;
+}
+.btn-main:link,
+.btn-main:visited {
+    font-size: 1.5rem;
+
+}
+
+}
+
+*/
+
+/*
+@media (min-width: 320px) {
+ .text-first-news { font-size: 1.0rem; }
+}
+
+
+@media (min-width: 960px) {
+.text-first-news { font-size: 1.5rem; }
+}
+
+
+@media (min-width: 320px) {
+.date-news  { font-size: 0.7rem; }
+}
+
+
+@media (min-width: 960px) {
+.date-news  { font-size: 1.0rem; }
+}
+
+@media (min-width: 320px) {
+.our_news,
+.our_crafts { font-size: 1.5rem;
+     }
+}
+
+@media (min-width: 960px) {
+.our_news{ font-size: 2.5rem;
+     }
+}
+*/
+/*
+@media (min-width: 320px) {
+.all-news .layout-column-1,
+.all-news .layout-column-2,
+.all-news .layout-column-3,
+.all-news .layout-column-4,
+.all-news .layout-column-5 { width: 200px;
+    font-size: 1.2rem;
+     }
+}
+
+@media (min-width: 960px)  {
+.all-news .layout-column-1,
+.all-news .layout-column-2,
+.all-news .layout-column-3,
+.all-news .layout-column-4,
+.all-news .layout-column-5 { width: 250px;
+    font-size: 1.5rem
+     }
+}
+*/
+
+@media (min-width: 320px) {
+ .text-video-presentation { font-size: 1.3rem;
+    width: 300px}
+}
+
+@media (min-width: 960px) {
+  .text-video-presentation { font-size: 2.3rem;
+    width: 600px;}
+}
+
+@media (min-width: 320px) {
+.text-first-services,
+.text-second-services,
+.text-third-services { font-size: 0.8rem;
+	font-weight: bold; }
+}
+
+@media (min-width: 960px) {
+.text-first-services,
+.text-second-services,
+.text-third-services { font-size: 1.8rem;
+	font-weight: 300;}
+}
+
+
+
+@media (min-width: 320px) {
+.fa-cubes,
+.fa-cube,
+.fa-graduation-cap  { font-size: 1.0rem; }
+}
+
+@media (min-width: 920px) {
+.fa-cubes,
+.fa-cube,
+.fa-graduation-cap  { font-size: 4rem; }
+}
+
+@media (min-width: 320px) {
+.fa-battle-net,
+.fa-medal,
+.fa-asymmetrik,
+.fa-palette  { font-size: 2.0rem; }
+}
+
+@media (min-width: 920px) {
+.fa-battle-net,
+.fa-medal,
+.fa-asymmetrik,
+.fa-palette  { font-size: 3.5rem; }
+}
+
+@media (min-width: 320px) {
+.btn:link,
+.btn:visited { font-size: 1.5rem;
+width: 200px;
+}
+}
+
+@media (min-width: 600px) {
+.btn:link,
+.btn:visited { font-size: 1.5rem;
+   width: 200px;
+
+}
+}
+
+@media (min-width: 960px) {
+.btn:link,
+.btn:visited { font-size: 2.0rem;
+   width: 300px;
+
+}
+}
+
+
+/* Блок с услугами
+@media (min-width: 320px) {
+    .our-services h2,
+    .our_news {
+        font-size: 1.5rem;
+    }
+    .our-services-items a .layout-column-1 h3,
+    .our-services-items a .layout-column-2 h3,
+    .our-services-items a .layout-column-3 h3 {
+        font-size: 0.7rem;
+    }
+    .our-services-items a .layout-column-1 ul li,
+    .our-services-items a .layout-column-2 ul li,
+    .our-services-items a .layout-column-3 ul li {
+        font-size: 0.8rem;
+    }
+    .fa-check {
+        font-size: 0.5rem;
+    }
+    .our-services-items a .layout-column-1 h3,
+    .our-services-items a .layout-column-2 h3,
+    .our-services-items a .layout-column-3 h3 {
+        width: 100px;
+    }
+    .fa-bell,
+    .fa-braille,
+    .fa-buromobelexperte {
+        font-size: 2.0rem
+    }
+    .our-services-items a .layout-column-1,
+    .our-services-items a .layout-column-2,
+    .our-services-items a .layout-column-3 {
+        width: 140px;
+    }
+}
+
+@media (min-width: 960px) {
+    .our-services h2,
+    .our_news {
+        font-size: 2.5rem;
+    }
+    .our-services-items a .layout-column-1 h3,
+    .our-services-items a .layout-column-2 h3,
+    .our-services-items a .layout-column-3 h3 {
+        font-size: 1.1rem;
+    }
+    .our-services-items a .layout-column-1 ul li,
+    .our-services-items a .layout-column-2 ul li,
+    .our-services-items a .layout-column-3 ul li {
+        font-size: 1.0rem;
+    }
+    .fa-check {
+        font-size: 1.0rem;
+    }
+    .our-services-items a .layout-column-1 h3,
+    .our-services-items a .layout-column-2 h3,
+    .our-services-items a .layout-column-3 h3 {
+        width: 200px;
+    }
+    .fa-bell,
+    .fa-braille,
+    .fa-buromobelexperte {
+        font-size: 3.5rem
+    }
+    .our-services-items a .layout-column-1,
+    .our-services-items a .layout-column-2,
+    .our-services-items a .layout-column-3 {
+        width: 250px;
+    }
+}
+*/
+/*Страницы Сад полного дня fulldaygarden.html*/
+
+@media (min-width: 320px) {
+    .fulldaygarden-page .icon-content-page .fa-bell {
+    font-size: 2.0rem;
+    }
+
+    
+    .text-content {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    }
+}
+
+@media (min-width: 1140px) {
+    .fulldaygarden-page .icon-content-page .fa-bell {
+    font-size: 3.5rem;
+    }
+    
+    .text-content {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    }
+}

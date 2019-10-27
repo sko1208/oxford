@@ -1,0 +1,28 @@
+[10-Oct-2019 22:11:54 Europe/Helsinki] PHP Parse error:  syntax error, unexpected end of file in /home/tnkoazcg/public_html/sendmail.php on line 29
+[10-Oct-2019 22:13:24 Europe/Helsinki] PHP Parse error:  syntax error, unexpected end of file in /home/tnkoazcg/public_html/sendmail.php on line 29
+[10-Oct-2019 22:13:48 Europe/Helsinki] PHP Parse error:  syntax error, unexpected end of file in /home/tnkoazcg/public_html/sendmail.php on line 29
+[12-Oct-2019 19:30:12 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '"Примиичание:"' (T_CONSTANT_ENCAPSED_STRING) in /home/tnkoazcg/public_html/send.php on line 19
+[12-Oct-2019 19:30:28 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '"Примиичание:"' (T_CONSTANT_ENCAPSED_STRING) in /home/tnkoazcg/public_html/send.php on line 19
+[12-Oct-2019 19:31:27 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '"Примиичание:"' (T_CONSTANT_ENCAPSED_STRING) in /home/tnkoazcg/public_html/send.php on line 19
+[12-Oct-2019 19:32:08 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '"Примиичание:"' (T_CONSTANT_ENCAPSED_STRING) in /home/tnkoazcg/public_html/send.php on line 19
+[12-Oct-2019 19:32:12 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '"Примиичание:"' (T_CONSTANT_ENCAPSED_STRING) in /home/tnkoazcg/public_html/send.php on line 19
+[12-Oct-2019 19:33:30 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '"Примиичание:"' (T_CONSTANT_ENCAPSED_STRING) in /home/tnkoazcg/public_html/send.php on line 19
+[12-Oct-2019 19:35:26 Europe/Helsinki] PHP Notice:  Undefined variable: email in /home/tnkoazcg/public_html/send.php on line 19
+[12-Oct-2019 19:35:44 Europe/Helsinki] PHP Notice:  Undefined variable: email in /home/tnkoazcg/public_html/send.php on line 19
+[12-Oct-2019 19:38:18 Europe/Helsinki] PHP Notice:  Undefined variable: email in /home/tnkoazcg/public_html/send.php on line 19
+[12-Oct-2019 19:53:03 Europe/Helsinki] PHP Notice:  Undefined index: polz_name in /home/tnkoazcg/public_html/send.php on line 5
+[12-Oct-2019 19:53:03 Europe/Helsinki] PHP Notice:  Undefined index: HTTP_X_REQUESTED_WITH in /home/tnkoazcg/public_html/send.php on line 7
+[12-Oct-2019 19:55:04 Europe/Helsinki] PHP Notice:  Undefined index: polz_name in /home/tnkoazcg/public_html/send.php on line 5
+[12-Oct-2019 19:55:04 Europe/Helsinki] PHP Notice:  Undefined index: HTTP_X_REQUESTED_WITH in /home/tnkoazcg/public_html/send.php on line 7
+[12-Oct-2019 19:55:13 Europe/Helsinki] PHP Notice:  Undefined index: polz_name in /home/tnkoazcg/public_html/send.php on line 5
+[12-Oct-2019 19:55:13 Europe/Helsinki] PHP Notice:  Undefined index: HTTP_X_REQUESTED_WITH in /home/tnkoazcg/public_html/send.php on line 7
+[12-Oct-2019 19:56:42 Europe/Helsinki] PHP Notice:  Undefined index: polz_name in /home/tnkoazcg/public_html/send.php on line 5
+[12-Oct-2019 19:56:42 Europe/Helsinki] PHP Notice:  Undefined index: HTTP_X_REQUESTED_WITH in /home/tnkoazcg/public_html/send.php on line 7
+[14-Oct-2019 21:23:46 Europe/Helsinki] PHP Notice:  Undefined variable: tel in /home/tnkoazcg/public_html/post-email.php on line 12
+[14-Oct-2019 21:24:09 Europe/Helsinki] PHP Notice:  Undefined variable: tel in /home/tnkoazcg/public_html/post-email.php on line 12
+[14-Oct-2019 21:24:12 Europe/Helsinki] PHP Notice:  Undefined variable: tel in /home/tnkoazcg/public_html/post-email.php on line 12
+[14-Oct-2019 21:24:41 Europe/Helsinki] PHP Notice:  Undefined variable: tel in /home/tnkoazcg/public_html/post-email.php on line 12
+[14-Oct-2019 21:28:04 Europe/Helsinki] PHP Notice:  Use of undefined constant FILTER_VALIDATE_TEL - assumed 'FILTER_VALIDATE_TEL' in /home/tnkoazcg/public_html/post-email.php on line 12
+[14-Oct-2019 21:28:04 Europe/Helsinki] PHP Warning:  filter_var() expects parameter 2 to be long, string given in /home/tnkoazcg/public_html/post-email.php on line 12
+[14-Oct-2019 21:28:16 Europe/Helsinki] PHP Notice:  Use of undefined constant FILTER_VALIDATE_TEL - assumed 'FILTER_VALIDATE_TEL' in /home/tnkoazcg/public_html/post-email.php on line 12
+[14-Oct-2019 21:28:16 Europe/Helsinki] PHP Warning:  filter_var() expects parameter 2 to be long, string given in /home/tnkoazcg/public_html/post-email.php on line 12

@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+    width: 40%;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+main {
+    background-color: rgba(72, 208, 226, 0.89);
+    text-align: center;
+    
+}
+.contacts-page {
+    padding-bottom: 2%;
+}
+
+.icon-content-contacts-page {
+    padding-top: 4%;
+    
+}
+
+.fa-info-circle {
+    font-size: 3.5rem;
+}
+
+.head-contacts-pages {
+    margin-top: 1%;
+    font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	font-size: 3.0rem;
+	list-style-type: none;
+}
+.text-content {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    text-align: left;
+    
+}
+
+.content-contacts-page {
+    margin: 3% auto;
+    width: 50%;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.text-content h3 {
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.text-content p  {
+    padding-bottom: 3.5%;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.link-contact-page:link,
+.link-contact-page:visited {
+    text-decoration: none;
+	color: #515151; 
+    border-bottom: 1px solid #e9004e;
+}
+
+.link-contact-page:hover,
+.link-contact-page:active { 
+color: #f0094c;
+}
+
+
