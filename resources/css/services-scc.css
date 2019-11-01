@@ -334,10 +334,7 @@
 }
 
 @media (min-width: 960px) {
-.all-news-page-news .layout-column-4,
-.all-news-page-news .layout-column-3 {
-   
-}
+
 }
 
 @media (min-width: 1140px) {
@@ -512,9 +509,7 @@
     
 
 }
-.test-footer {
-   
-}
+
  /* Ховер эффект для для фото страницы news20191101.html*/
 .hvr-grow-rotate {
     display: inline-block;
