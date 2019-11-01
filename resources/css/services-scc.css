@@ -287,7 +287,9 @@
 
 @media (min-width: 1140px) {
 .all-news-page-news { 
-    width: 1060px; }
+    width: 1060px;
+    justify-content: flex-start; }
+    
 }
 
 .all-news-page-news .layout-column-1,
