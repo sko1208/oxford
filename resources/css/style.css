@@ -654,8 +654,7 @@ padding-bottom: 100%;
     width: 1060px; }
 }
 
-.all-news .layout-column-1,
-.all-news .layout-column-2,
+.all-news .layout-column-6,
 .all-news .layout-column-3,
 .all-news .layout-column-4,
 .all-news .layout-column-5 {
@@ -706,37 +705,40 @@ padding-bottom: 100%;
 
 @media (min-width: 1140px) {
 .all-news .layout-column-4,
-.all-news .layout-column-2,
+.all-news .layout-column-5,
 .all-news .layout-column-3 {
     display: block;
     margin-left: 20px;
 } 
 }
 
+.all-news .layout-column-6 {
+    order: 1;
+  }
 
-
-.all-news .layout-column-1 {
-  order: 5;
-}
-
-.all-news .layout-column-2 {
+.all-news .layout-column-3 {
   order: 4;
 }
 
-.all-news .layout-column-3 {
+.all-news .layout-column-4 {
   order: 3;
 }
 
-.all-news .layout-column-4 {
+.all-news .layout-column-5 {
   order: 2;
 }
 
-.all-news .layout-column-5 {
-  order: 1;
-}
-
 .background-first-news {
-   background-image: url("img/happybirthday.jpg");
+    background-image: url("img/happybirthday.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+ }
+
+.background-six-news {
+   background-image: url("img/news20191101.jpg");
    background-size: cover;
    background-repeat: no-repeat;
    padding-bottom: 100%;
