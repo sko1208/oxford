@@ -1550,7 +1550,6 @@ width: 200px;
 
 
 .footer {
-    margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
     background-color: #fff;
@@ -1671,10 +1670,11 @@ width: 200px;
 }
 
 .copyright {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 0.8rem;
-  color: #515151;
+    background-color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    color: #515151;
 }
 
 .copyright a {

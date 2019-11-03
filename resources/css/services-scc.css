@@ -74,7 +74,7 @@
 }
 
 .content-page {
-    margin: 10px auto;
+    margin: 20px auto;
     width: 700px;
     border-radius: 50px;
     background-color: #fff;
@@ -235,6 +235,7 @@
     background-image: url("img/cupcakes-2887270_1920.jpg");
     background-size: cover;
     padding-bottom: 20px;
+    
 }
 
 .all-news-page-news {
@@ -536,3 +537,8 @@
     -webkit-transform: scale(1.1) rotate(4deg);
     transform: scale(1.1) rotate(4deg);
   }
+
+/*Страгица news20191103*/
+.news20191103{
+    background-image: url("img/cupcakes-2887270_1920.jpg");
+}
