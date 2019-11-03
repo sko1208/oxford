@@ -657,7 +657,8 @@ padding-bottom: 100%;
 .all-news .layout-column-6,
 .all-news .layout-column-3,
 .all-news .layout-column-4,
-.all-news .layout-column-5 {
+.all-news .layout-column-5,
+.all-news .layout-column-7 {
    width: 250px;
    margin-top: 20px;
    padding-top: 3px;
@@ -677,38 +678,47 @@ padding-bottom: 100%;
 }
 
 @media (min-width: 640px) {
-    .all-news .layout-column-2 {
+    .all-news .layout-column-3,
+    .all-news .layout-column-6 {
         display: block;
-    }
+        margin-left: 20px;
+} 
 }
 
 @media (min-width: 740px) {
-    .all-news .layout-column-2 {
+  
+    
+    .all-news .layout-column-3,
+    .all-news .layout-column-6 {
         display: block;
-    }
+        margin-left: 20px;
+} 
 }
 
 @media (min-width: 800px) {
-    .all-news .layout-column-2 {
+    .all-news .layout-column-3,
+    .all-news .layout-column-6 {
         display: block;
-    }
+        margin-left: 20px;
+} 
 
 }
 
 @media (min-width: 960px) {
-.all-news .layout-column-4,
-.all-news .layout-column-3 {
-    display: block;
-   margin-left: 20px;
+    .all-news .layout-column-3,
+    .all-news .layout-column-5  {
+        display: block;
+        margin-left: 20px;
 }
 }
 
 @media (min-width: 1140px) {
-.all-news .layout-column-4,
-.all-news .layout-column-5,
-.all-news .layout-column-3 {
-    display: block;
-    margin-left: 20px;
+    .all-news .layout-column-4,
+    .all-news .layout-column-5,
+    .all-news .layout-column-3,
+    .all-news .layout-column-6 {
+        display: block;
+        margin-left: 20px;
 } 
 }
 
@@ -717,19 +727,27 @@ padding-bottom: 100%;
   }
 
 .all-news .layout-column-3 {
-  order: 4;
+    order: 4;
 }
 
 .all-news .layout-column-4 {
-  order: 3;
+    order: 3;
 }
 
 .all-news .layout-column-5 {
-  order: 2;
+    order: 2;
 }
 
 .background-first-news {
     background-image: url("img/happybirthday.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+ }
+ .background-seven-news {
+    background-image: url("img/news20191103.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 100%;
