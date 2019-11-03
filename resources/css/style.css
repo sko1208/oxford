@@ -443,9 +443,7 @@ header {
    color: #515151;
 }
 
-.our-services-items .sevices-block .layout-column-2 ul  {
-  
-}
+
 
 .our-services-items .sevices-block .layout-column-1 ul,
 .our-services-items .sevices-block .layout-column-2 ul,
@@ -1568,18 +1566,6 @@ width: 200px;
 }
 .footer-main-navigation li {
 	list-style-type: none;
-}
-
-.footer-main-navigation li a:link {
-
-}
-
-.footer-main-navigation li a:hover {
-
-}
-
-.footer-menu {
-
 }
 
 .box-btn-main {
