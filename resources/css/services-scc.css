@@ -297,7 +297,8 @@
 .all-news-page-news .layout-column-3,
 .all-news-page-news .layout-column-4,
 .all-news-page-news .layout-column-5,
-.all-news-page-news .layout-column-6 {
+.all-news-page-news .layout-column-6,
+.all-news-page-news .layout-column-7 {
    width: 250px;
    margin-top: 20px;
    padding-top: 3px;
@@ -341,10 +342,10 @@
 
 @media (min-width: 1140px) {
 .all-news-page-news .layout-column-4,
-.all-news-page-news .layout-column-3,
+.all-news-page-news .layout-column-6,
 .all-news-page-news .layout-column-5,
-.all-news-page-news .layout-column-1 {
- 
+.all-news-page-news .layout-column-1,
+.all-news-page-news .layout-column-2 {
     margin-left: 20px;
 } 
 }
@@ -352,24 +353,31 @@
 
 
 .all-news-page-news .layout-column-1 {
-  order: 5;
+  order: 7;
 }
 
 .all-news-page-news .layout-column-2 {
-  order: 4;
+  order: 6;
 }
 
 .all-news-page-news .layout-column-3 {
-  order: 3;
+  order: 5;
 }
 
 .all-news-page-news .layout-column-4 {
-  order: 2;
+  order: 4;
 }
 
 .all-news-page-news .layout-column-5 {
-  order: 1;
+  order: 3;
 }
+.all-news-page-news .layout-column-6 {
+    order: 2;
+  }
+
+.all-news-page-news .layout-column-7 {
+    order: 1;
+  }
 
 
 /*Галерея Хелоуни*/
