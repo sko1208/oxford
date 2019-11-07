@@ -49,15 +49,18 @@
             </div>
             
             <!-- Бургер-меню -->
-            <div class="menu">
+            
                <!-- Полоски Бургер меню -->
+               <!--
                 <div class="menu__icon">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
+                -->
                 <!-- Ссылки меню -->   
+                <!--
 				<div class="menu__links">
                     <a class="menu__links-item" href="news.html">Новини</a>
                     <a class="menu__links-item" href="services.html">Наші послуги</a>
@@ -65,7 +68,24 @@
                     <a class="menu__links-item" href="contacts.html">Контакти</a>
                 </div>
             </div>
-            
+       -->
+            <nav class="jmenu">
+                <label for="menu-btn" class="jm-menu-btn jm-icon-menu"></label>
+                <input type="checkbox" id="menu-btn" class="jm-menu-btn">
+                <ul class="jm-collapse">
+                    <li><a href="">Home</a></li>
+                    <li class="jm-dropdown">
+                    <a href="">Categories</a>
+                     <ul>
+                            <li><a href="javascript:void(0)">Apples</a></li>
+                            <li><a href="javascript:void(0)">Bananas and Pears</a></li>
+                            <li><a href="javascript:void(0)">Oranges</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0)">About</a></li>
+                    <li><a href="javascript:void(0)">Contact</a></li>
+                </ul>
+            </nav>
             <!-- Социвльные иконки --> 
             <ul class="socialIcons">
                 <li><a href="https://www.facebook.com/oxfordkidsvyshneve/?ref=bookmarks" class="facebook" title="Facebook Оксфорд Kids"><i class="fab fa-facebook-f"></i><span></span></a></li>
