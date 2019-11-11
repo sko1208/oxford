@@ -290,11 +290,12 @@ burgerMenu('.burgermenu');
 }(window.jQuery);
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon МЕНЮ КОТОРОЕ НА ДАННЫЙ МОМЕНТ СЕЙЧАС*/
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+$(document).ready(function(){
+  $('.menu-toggle').click(function(){ 
+      $('nav').toggleClass('active')
+      if($('nav').hasClass('active'))
+          $('.menu-toggle i').removeClass('fas fa-bars').addClass('fas fa-times')
+      else 
+          $('.menu-toggle i').removeClass('fas fa-times').addClass('fas fa-bars')
+  })
+})
