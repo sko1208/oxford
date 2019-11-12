@@ -23,7 +23,7 @@ html {
     font-family: 'PT Sans Narrow', sans-serif;
     text-rendering: optimizeLegibility;
 }
-
+/*Хедор+Адаптивное дропдаун меню*/
 header {
     position: absolute;
     top: 0;
@@ -52,6 +52,36 @@ header nav ul {
 
 header nav ul li {
     list-style: none;
+    position: relative;
+}
+
+header nav ul li.sub-menu:before {
+    content: '\f0d7';
+    font-family: fontAwesome;
+    position: absolute;
+    line-height: 50px;
+    color: #fff;
+    right: 5px;
+  
+}
+
+header nav ul li.active.sub-menu:before {
+    content: '\f0d8';
+}
+header nav ul li ul {
+    position: absolute;
+    left: 0;
+    background: #333;
+    display: none;
+}
+
+header nav ul li.active ul {
+    display: block;
+}
+
+header nav ul li ul li {
+    display: block;
+    width: 200px;
 }
 
 header nav ul li a {
@@ -106,27 +136,14 @@ header nav ul li a.active
     header nav ul a {
       border-bottom: 1px solid rgba(0,0,0,.2);  
     }
-}
-
-
-/* Псевдохедор при липком хедоре */
-.psevdo-header {
-   background-color: #fff;
-   padding-bottom: 60px;
-}
-
-@media (min-width: 320px) {
-    .psevdo-header {
-       padding-bottom: 100px; 
+    header nav ul li.active ul {
+        position: relative;
+        background: #ff52aa;
+    }
+    header nav ul li ul li {
+        width: 100%;
     }
 }
-
-@media (min-width: 1140px) {
-    .psevdo-header {
-        padding-bottom: 60px;
-    }
-}
-
 
 /*Социальные иконки*/
 .socialIcons {

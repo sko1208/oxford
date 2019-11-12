@@ -298,4 +298,8 @@ $(document).ready(function(){
       else 
           $('.menu-toggle i').removeClass('fas fa-times').addClass('fas fa-bars')
   })
+  $('ul li').click(function(){
+    $(this).siblings().removeClass('active');
+    $(this).toggleClass('active');
+  })
 })
