@@ -27,6 +27,7 @@ html {
 header {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     position: absolute;
     top: 0;
     left: 0;
@@ -86,8 +87,11 @@ header nav ul li.active.sub-menu:before {
 header nav ul li ul {
     position: absolute;
     left: 0;
-    background: #333;
+    background: #ff9c2a;
     display: none;
+    font-family: 'Kurale', serif;
+    
+   
 }
 
 header nav ul li.active ul {
@@ -96,25 +100,41 @@ header nav ul li.active ul {
 
 header nav ul li ul li {
     display: block;
-    width: 200px;
+    width: 220px;
+    border-bottom: 1px solid #515151;
+
 }
+.test1 {
+    font-size: 12px;
+}
+.test1:hover {
+    color: #fff;
+    
+   
+}
+
 
 header nav ul li a {
     height: 50px;
     line-height: 50px;
     padding: 0 20px;
-    color: #515151;
+    color: #020138;
     text-decoration: none;
     display: block;
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: 'Kurale', serif;
+    
 }
 
 header nav ul li a:hover,
 header nav ul li a.active
  {
-    color: #fff;
-    background: #2196f3;
-
+  
 }
+
 .menu-toggle {
     color: #fff;
     float: right;
@@ -159,6 +179,8 @@ header nav ul li a.active
         width: 100%;
     }
 }
+
+
 .fa-bars {
     color: #ff9d2a;
 }
