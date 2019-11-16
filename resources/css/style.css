@@ -23,12 +23,11 @@ html {
     font-family: 'PT Sans Narrow', sans-serif;
     text-rendering: optimizeLegibility;
 }
-/*Хедор+Адаптивное дропдаун меню*/
 header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     padding: 0 100px;
@@ -38,6 +37,8 @@ header {
     background-size: 100px 100px;
     background-position: 30% 20%;
     width: 100%;
+    height: 50px;
+    transition: 1.5s;
     z-index:999;
 }
 header .logo {
