@@ -41,8 +41,9 @@ header {
     transition: 1.5s;
     z-index:999;
 }
+
 header .logo {
-    width: 100px;
+    width: 80px;
     height: 50px;
     line-height: 50px;
     float: left;
@@ -50,7 +51,7 @@ header .logo {
 }
 
 header nav {
-    float: right;
+    float: left;
 }
 
 header nav ul {
@@ -70,9 +71,9 @@ header nav ul li.sub-menu:before {
     position: absolute;
     line-height: 50px;
     color: #fff;
+    background-image: url("../css/svg/up.svg");
     right: 5px;
-    background-image: url("../css/svg/down.svg");
-    background-size: 10px 10px;
+    background-size: 10px 0px;
     width: 10px;
     height: 10px;
     top: 20px; 
@@ -80,17 +81,19 @@ header nav ul li.sub-menu:before {
 
 header nav ul li.active.sub-menu:before {
     content: '';
-    background-image: url("../css/svg/up.svg");
+    background-image: url("../css/svg/down.svg");
     background-size: 10px 10px;
     width: 10px;
     height: 10px;
+    
 }
 header nav ul li ul {
     position: absolute;
     left: 0;
-    background: #ff9c2a;
+    background: #fff;
     display: none;
     font-family: 'Kurale', serif;
+    box-shadow: 0 8px 6px -6px black;;
     
    
 }
@@ -101,17 +104,12 @@ header nav ul li.active ul {
 
 header nav ul li ul li {
     display: block;
-    width: 220px;
-    border-bottom: 1px solid #515151;
+    width: 230px;
+    
 
 }
-.test1 {
+.sub-sub-menu {
     font-size: 12px;
-}
-.test1:hover {
-    color: #fff;
-    
-   
 }
 
 
@@ -123,17 +121,18 @@ header nav ul li a {
     text-decoration: none;
     display: block;
     letter-spacing: 2px;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: bolder;
     text-transform: uppercase;
     font-family: 'Kurale', serif;
+    
     
 }
 
 header nav ul li a:hover,
 header nav ul li a.active
  {
-  
+    border-bottom: 5px solid #ff9d2a;
 }
 
 .menu-toggle {
@@ -144,6 +143,8 @@ header nav ul li a.active
     cursor: pointer;
     display: none;
 }
+
+
 @media (max-width: 991px) {
     header {
         padding: 0 20px;
@@ -152,14 +153,14 @@ header nav ul li a.active
         display: block;
     }
     header nav {
-       
+        
         position: absolute;
         width: 100%;
         height: calc(100vh - 50px);
-        background: #333 ;
+        background: #fff ;
         top: 50px;
         left: -1000px;
-        transition: 0.5s;
+        transition: 1.5s;
     }
     header nav.active {
         left: 0;
@@ -170,16 +171,35 @@ header nav ul li a.active
         text-align: center;
     }
     header nav ul a {
-      border-bottom: 1px solid rgba(0,0,0,.2);  
+        width: 50%;
+        border-bottom: 1px solid rgba(0,0,0,.2);
+        margin: 0 auto;  
     }
     header nav ul li.active ul {
         position: relative;
-        background: #ff52aa;
+        box-shadow: none;
+       
     }
-    header nav ul li ul li {
+    header nav ul li.active ul li {
         width: 100%;
+        margin: 0 auto;
+    }
+    header nav ul li ul li a {
+        width: 50%;
+        background: rgb(241, 240, 237);
     }
 }
+@media (min-width: 320px) {
+    .header nav ul {
+        font-size: 10px;
+        }
+    }
+    
+    @media (min-width: 1140px) {
+    .header nav ul {
+        font-size: 10px;
+        }
+    }
 
 
 .fa-bars {
@@ -192,15 +212,13 @@ header nav ul li a.active
 /*Социальные иконки*/
 .socialIcons {
     display: flex;
+    flex-grow: 1;
     align-items: center;
     justify-content: flex-end;
-    flex-grow: 1;
     list-style-type: none;
     color: #515151;
     text-decoration: none;
-    width: 100px;
-    
-    
+    width: 80px;   
 }
 
 .socialIcons li {
@@ -221,7 +239,7 @@ header nav ul li a.active
 
 @media (min-width: 320px) {
 .socialIcons li a {
-    font-size: 2.0rem;
+    font-size: 1.5rem;
     }
 }
 
@@ -337,15 +355,24 @@ header nav ul li a.active
 .banner .content h2 {
     margin: 0;
     padding: 0;
-    font-size: 4.5em;
+    font-size: 60px;
     text-transform: uppercase;
     color: #fff;
     font-family: 'PT Sans Narrow', sans-serif;
 }
+.video-contents {
+    background: rgba(33, 88, 214, 0.65);
+}
 
-.banner .content p {
-    font-size: 1.5em;
-    color: #fff;
+.about {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    color: #020138;
+    font-size: 25px;
+    padding: 80px;
+
 }
 
 /*Услуги*/
@@ -353,18 +380,6 @@ header nav ul li a.active
     background-image: url("img/background-block-two.jpg");
     background-size: cover;
    
-}
-
-@media (min-width: 320px) {
-    .our-services {
-        margin-top: 60px;
-    }
-}
-
-@media (min-width: 1140px) {
-    .our-services {
-        margin-top: 220px;
-    }
 }
 
 .our-services h2,
