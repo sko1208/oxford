@@ -71,9 +71,9 @@ header nav ul li.sub-menu:before {
     position: absolute;
     line-height: 50px;
     color: #fff;
-    background-image: url("../css/svg/up.svg");
+    background-image: url("../css/svg/down.svg");
     right: 5px;
-    background-size: 10px 0px;
+    background-size: 10px 10px;
     width: 10px;
     height: 10px;
     top: 20px; 
@@ -81,12 +81,12 @@ header nav ul li.sub-menu:before {
 
 header nav ul li.active.sub-menu:before {
     content: '';
-    background-image: url("../css/svg/down.svg");
+    background-image: url("../css/svg/up.svg");
     background-size: 10px 10px;
     width: 10px;
     height: 10px;
-    
 }
+
 header nav ul li ul {
     position: absolute;
     left: 0;
@@ -170,11 +170,13 @@ header nav ul li a.active
         display: block;
         text-align: center;
     }
+    
     header nav ul a {
         width: 50%;
         border-bottom: 1px solid rgba(0,0,0,.2);
         margin: 0 auto;  
     }
+    
     header nav ul li.active ul {
         position: relative;
         box-shadow: none;
