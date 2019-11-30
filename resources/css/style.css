@@ -356,14 +356,35 @@ header nav ul li a.active
 
 .banner .content h1 {
     margin: 0;
-    padding: 0;
-    font-size: 60px;
+    padding: 10px 25px;
+    font-size: 35px;
     text-transform: uppercase;
     color: #fff;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Kurale', serif;
+}
+
+@media (min-width: 320px) {
+    .banner .content h1 {
+        font-size: 15px; 
+    }    
+}
+@media (min-width: 640px) {
+    .banner .content h1 {
+        font-size: 20px; 
+    }    
+}
+@media (min-width: 800px) {
+    .banner .content h1 {
+        font-size: 25px; 
+    }    
+}
+@media (min-width: 960px) {
+    .banner .content h1 {
+        font-size: 30px; 
+    }    
 }
 .video-contents {
-    background: rgba(33, 88, 214, 0.65);
+    background: rgba(33, 33, 34, 0.65);
 }
 
 .about {
