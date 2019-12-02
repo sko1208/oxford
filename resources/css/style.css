@@ -330,7 +330,7 @@ header nav ul li a.active
 
 .banner {
     width: 100%;
-    height: 100vh;
+    height: 500px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -342,7 +342,7 @@ header nav ul li a.active
     left: 0;
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 500px;
     pointer-events: none;
 }
 
@@ -397,7 +397,82 @@ header nav ul li a.active
     padding: 80px;
 
 }
+/*Блок коротко о нас*/
+.presentBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+.presentContainer {
+    width: 1200px;
+    height: 400px;
+    box-shadow: 5px 5px 20px;
+    
+   
+  }
+.presentShaped {
+    float:left;
+    height: 450px;
+    width: 50%;
+    float:right;
+    background: black url(../css/img/firstplace.jpg) center top no-repeat;
+    background-size:cover;
+    shape-outside: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+    shape-margin: 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+    
+  }   
+.presentContent {
+    padding: 30px;
+    font-size: 15px;
+    background: rgba(17, 131, 184, 0.76);
+    height: 100%;
+    font-family: 'Kurale', serif;
+    color: #fff;
+    text-align: justify;   
 
+}
+@media (min-width: 320px) {
+    .presentContainer {
+        width: 100%;
+        height: 100%;
+    }
+    .presentContent {
+        height: 100%;
+    }
+    .presentBlock {
+        height: 100%;
+    } 
+    .presentShaped  {
+     margin: 30px;
+    }   
+}
+@media (min-width: 640px) {
+    
+}
+@media (min-width: 800px) {
+    
+}
+@media (min-width: 960px) {
+    .presentContainer {
+        
+        width: 1200px;
+        height: 450px;
+    }
+    .presentContent {
+        
+    }
+    .presentBlock {
+        height: 100vh;
+    }  
+    .presentShaped  {
+        margin: 0;
+       }       
+}
+          
 /*Услуги*/
 .our-services {
     background-image: url("img/background-block-two.jpg");
