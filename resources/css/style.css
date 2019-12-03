@@ -462,9 +462,7 @@ header nav ul li a.active
         width: 1200px;
         height: 450px;
     }
-    .presentContent {
-        
-    }
+    
     .presentBlock {
         height: 100vh;
     }  
@@ -516,6 +514,7 @@ header nav ul li a.active
    background-color: rgba(252, 251, 250, 0.84);
    border-radius: 20px;
    margin-top: 20px;
+   
 }
 
 /*.our-services-items a .layout-column-1:hover,
@@ -536,6 +535,25 @@ header nav ul li a.active
    border: 1px solid #ff9d2a;
 }
 */
+.linkServices:link,
+.linkServices:visited {
+    text-decoration: none;
+    color: #515151;
+    
+}
+
+.linkServices:hover,
+.linkServices:active {
+    color: #ff9d2a;
+}
+.sevices-block .layout-column-1:hover,
+.sevices-block .layout-column-2:hover,
+.sevices-block .layout-column-1:active,
+.sevices-block .layout-column-2:active
+ {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
 .our-services-items .layout-column-1{
      margin-left: 20px;
 }
@@ -640,10 +658,6 @@ header nav ul li a.active
 
 .layout-column-2 .btn-button {
     margin-top: 7.5em;
-}
-
-.layout-column-3 .btn-button {
-    margin-top: 0.3em;
 }
 
 /*Блок с преймуществами*/
