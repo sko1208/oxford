@@ -182,9 +182,7 @@ header nav ul li a.active
 
        
     }
-    header nav ul li ul  {
-        
-    }
+    
     header nav ul li.active ul li {
         width: 100%;
         margin: 0 auto;
@@ -405,11 +403,12 @@ header nav ul li a.active
 .presentBlock {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    height: 100vh;
     width: 100%;
-    
-    
+}
+.presentBlock .headBlock {
+    width: 100%;
 }
 
 .presentContainer {
@@ -419,7 +418,7 @@ header nav ul li a.active
 
 .presentShaped {
     float:left;
-    height: 500px;
+    height: 550px;
     width: 50%;
     float:right;
     background: black url(../css/img/firstplace.jpg) center top no-repeat;
@@ -432,15 +431,28 @@ header nav ul li a.active
 
 .presentContent {
     padding: 30px;
-    font-size: 15px;
+    font-size: 17px;
     background: rgba(17, 131, 184, 0.76);
     height: 100%;
     font-family: 'Kurale', serif;
     color: #fff;
     text-align: justify;
     border-radius: 35px;   
-
 }
+
+.presentContent p {
+    text-indent: 20px;
+}
+
+.presentContent .headTips {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+.presentContent ul {
+    margin-left: 20px;
+}
+
 @media (min-width: 320px) {
     .presentContainer {
         margin-top: 40px;
@@ -455,7 +467,7 @@ header nav ul li a.active
         height: 100%;
     } 
     .presentShaped  {
-     margin: 30px;
+     display: none;
     }   
 }
 @media (min-width: 640px) {
@@ -463,6 +475,10 @@ header nav ul li a.active
         width: 90%;
         height: 100%;
     }
+    .presentShaped  {
+        display: block;
+        border-radius: 0 35px 0 0;
+       }   
 }
 @media (min-width: 800px) {
     .presentContainer {
@@ -473,14 +489,46 @@ header nav ul li a.active
 @media (min-width: 960px) {
     .presentContainer {
         width: 90%;
-        height: 500px;
+        height: 670px;
     }
     
     .presentBlock {
-        height: 100vh;
+        height: auto;
     }  
     .presentShaped  {
         margin: 0;
+        height: 670px;
+        border-radius: 0 35px 35px 0;
+       }       
+}
+@media (min-width: 1080px) {
+    .presentContainer {
+        width: 90%;
+        height: 600px;
+    }
+    
+    .presentBlock {
+        height: auto;
+    }  
+    .presentShaped  {
+        margin: 0;
+        height: 600px;
+        border-radius: 0 35px 35px 0;
+       }       
+}
+@media (min-width: 1200px) {
+    .presentContainer {
+        width: 90%;
+        height: 550px;
+    }
+    
+    .presentBlock {
+        height: auto;
+    }  
+    .presentShaped  {
+        margin: 0;
+        height: 550px;
+        border-radius: 0 35px 35px 0;
        }       
 }
           
