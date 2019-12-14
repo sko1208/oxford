@@ -129,8 +129,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover,
-header nav ul li a.active
- {
+header nav ul li a.active,
+.activeMenu {
     border-bottom: 5px solid #ff9d2a;
 }
 
@@ -182,7 +182,7 @@ header nav ul li a.active
 
        
     }
-    
+
     header nav ul li.active ul li {
         width: 100%;
         margin: 0 auto;
@@ -291,43 +291,13 @@ header nav ul li a.active
 .socialIcons li a span  { display: contents;
     }
 }
-/*Видео на главной странице*/
-/*
-.presentation-video {
-    height: 50px;
-    width: 100%;
-    margin: auto;
-    position: relative;
-    text-align: center;
-    padding-top: 10%;
-    margin-top: 50px;
-}
-
-.option-presentation-video {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 2px;
-    margin: auto;
-    z-index: -1;
-}
-
-.text-video-presentation {
+.newyear {
     display: block;
-    height: auto;
-    color: #ffffff;
-    background: rgba(0, 0, 0, 0.57);
-    font-size: 2.5rem;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    margin: -35px auto;
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    background-image: url("../css/svg/snowmen.svg");
 }
-*/
 
 .banner {
     width: 100%;
@@ -339,6 +309,7 @@ header nav ul li a.active
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .banner video {
+    margin-top: 200px;
     position: absolute;
     top: 0;
     left: 0;
@@ -444,7 +415,7 @@ header nav ul li a.active
     text-indent: 20px;
 }
 
-.presentContent .headTips {
+.headTips {
     display: block;
     font-weight: bold;
     text-align: center;
@@ -1016,9 +987,6 @@ padding-bottom: 100%;
 }
 
 /* Блок с Что делать если нужен сад */
-.main-need {
-    margin-bottom: 40px;
-}
 
 .need {
     display: flex;
@@ -1028,18 +996,10 @@ padding-bottom: 100%;
 }
 
 .need .layout-column-1,
-.need .layout-column-3,
-.need .layout-column-5 {
+.need .layout-column-2,
+.need .layout-column-3 {
     width: 400px;
     margin-top: 40px;
-}
-
-.need .layout-column-2,
-.need .layout-column-4 {
-    width: 50px;
-    height: 50px;
-    background-image: url("svg/right-arrow-need.svg");
-    align-self: center;
 }
 
 @media (min-width: 320px) {
@@ -1084,11 +1044,11 @@ padding-bottom: 100%;
     background-image: url("svg/singup-need.svg")
 }
 
-.layout-column-3 .icon-need {
+.layout-column-2 .icon-need {
     background-image: url("svg/exkursion-need.svg")
 }
 
-.layout-column-5 .icon-need {
+.layout-column-3 .icon-need {
     background-image: url("svg/baby-garden.svg")
 }
 
