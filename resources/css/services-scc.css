@@ -244,6 +244,9 @@
     padding-bottom: 20px;
     
 }
+.main-newsHead {
+    margin-top: 35px;
+}
 
 .all-news-page-news {
     margin-bottom: 50px;
@@ -306,7 +309,9 @@
 .all-news-page-news .layout-column-4,
 .all-news-page-news .layout-column-5,
 .all-news-page-news .layout-column-6,
-.all-news-page-news .layout-column-7 {
+.all-news-page-news .layout-column-7,
+.all-news-page-news .layout-column-8,
+.all-news-page-news .layout-column-9 {
    width: 250px;
    margin-top: 20px;
    padding-top: 3px;
@@ -349,11 +354,12 @@
 }
 
 @media (min-width: 1140px) {
-.all-news-page-news .layout-column-4,
 .all-news-page-news .layout-column-6,
-.all-news-page-news .layout-column-5,
-.all-news-page-news .layout-column-1,
-.all-news-page-news .layout-column-2 {
+.all-news-page-news .layout-column-2,
+.all-news-page-news .layout-column-7,
+.all-news-page-news .layout-column-3,
+.all-news-page-news .layout-column-8,
+.all-news-page-news .layout-column-4 {
     margin-left: 20px;
 } 
 }
@@ -361,29 +367,36 @@
 
 
 .all-news-page-news .layout-column-1 {
-  order: 7;
+  order: 9;
 }
 
 .all-news-page-news .layout-column-2 {
-  order: 6;
+  order: 8;
 }
 
 .all-news-page-news .layout-column-3 {
-  order: 5;
+  order: 7;
 }
 
 .all-news-page-news .layout-column-4 {
-  order: 4;
+  order: 6;
 }
 
 .all-news-page-news .layout-column-5 {
-  order: 3;
+  order: 5;
 }
 .all-news-page-news .layout-column-6 {
-    order: 2;
+    order: 4;
   }
 
 .all-news-page-news .layout-column-7 {
+    order: 3;
+  }
+
+.all-news-page-news .layout-column-8 {
+    order: 2;
+  }
+.all-news-page-news .layout-column-9 {
     order: 1;
   }
 
@@ -545,7 +558,13 @@
     transform: scale(1.1) rotate(4deg);
   }
 
-/*Страгица news20191103*/
+/*Страница news20191103*/
 .news20191103{
     background-image: url("img/cupcakes-2887270_1920.jpg");
+}
+
+/*Страницы все начи с новости news20191127*/
+.fulldaygarden-page .content-page {
+   margin-top: 70px;
+   margin-bottom: 30px;
 }
