@@ -1092,10 +1092,11 @@ padding-bottom: 100%;
    background-color: #bf87d4;
    border: 1px solid #bf87d4;
    color: #fff;
+   cursor: pointer;
 }
 
 .container .modal-button .modal-btn:hover,
-.container .modal-button .modal-btn:active {
+.container .modal-button .modal-btn:activgite {
    background-color: #a455c2;
 }
 
@@ -1387,6 +1388,7 @@ textarea.input100 {
     text-transform: uppercase;
     padding-top: 5px;
     padding-bottom: 5px;
+    cursor: pointer;
 
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
