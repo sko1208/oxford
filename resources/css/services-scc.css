@@ -174,8 +174,8 @@
     color: #515151;
 }
 
-.fulldaygarden-page .content-page:nth-of-type(2) {
-    margin-top: 10px;
+.fulldaygarden-page  {
+    margin-top: 70px;
 }
 
 .fulldaygarden-items li {
@@ -536,10 +536,8 @@
 	-webkit-transform: translateY(-50%);
 }
 .halloween-page {
-    
+    padding-top: 30px;
     background-image: url("img/cupcakes-2887270_1920.jpg");
-    
-
 }
 
  /* Ховер эффект для для фото страницы news20191101.html*/
