@@ -22,26 +22,20 @@
 }
 
 .services,
-.aboutus,
-.contacts,
 .pattern4 {
     background-image: url("img/background-services2.jpg");
     background-size: contain;
-    background-position: center;
-    background-attachment: fixed;
-    text-align: center;
     padding-bottom: 50px;
-}
-
-.aboutus {
-    background-image: url("img/background-aboutus.jpg");
 }
 
 .contacts {
     background-image: url("img/background-contacts.jpg");
-    
-    
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
 }
+
 .pattern4 {
      background-image: url("img/pattern4.jpg");
 }
@@ -175,7 +169,8 @@
 }
 
 .fulldaygarden-page  {
-    margin-top: 70px;
+    padding-top:20px;
+    padding-bottom: 20px;
 }
 
 .fulldaygarden-items li {
@@ -566,4 +561,9 @@
 .fulldaygarden-page .content-page {
    margin-top: 70px;
    margin-bottom: 30px;
+}
+
+/*Страница aboutus*/
+.aboutus {
+    background-image: url("../css/img/background-aboutus.jpg");
 }
