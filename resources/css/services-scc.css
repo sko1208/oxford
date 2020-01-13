@@ -35,6 +35,10 @@
     background-attachment: fixed;
     text-align: center;
 }
+/*Подправил страницу Контакты*/
+.contacts nav {
+    text-align: left;
+}
 
 .pattern4 {
      background-image: url("img/pattern4.jpg");
