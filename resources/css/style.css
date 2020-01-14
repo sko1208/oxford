@@ -822,7 +822,8 @@ header nav ul li a.active,
  .all-news .layout-column-5,
  .all-news .layout-column-7,
  .all-news .layout-column-8,
- .all-news .layout-column-9 {
+ .all-news .layout-column-9,
+ .all-news .layout-column-10 {
     width: 250px;
     margin-top: 20px;
     padding-top: 3px;
@@ -836,39 +837,31 @@ header nav ul li a.active,
  
  
  @media (min-width: 320px) {
-     .all-news .layout-column-2 {
+     .all-news .layout-column-7 {
          display: none;
      }
  }
  
  @media (min-width: 640px) {
-     .all-news .layout-column-4
-     {
-         display: block;
-         margin-left: 20px;
- } 
+    
  }
  
  @media (min-width: 740px) {
    
      
-     .all-news .layout-column-4 {
-         display: block;
-         margin-left: 20px;
+     
  } 
- }
+ 
  
  @media (min-width: 800px) {
-     .all-news .layout-column-4 {
-         display: block;
-         margin-left: 20px;
+     
  } 
  
- }
+ 
  
  @media (min-width: 960px) {
      .all-news .layout-column-8,
-     .all-news .layout-column-7  {
+     .all-news .layout-column-9   {
          display: block;
          margin-left: 20px;
  }
@@ -880,26 +873,11 @@ header nav ul li a.active,
      .all-news .layout-column-3,
      .all-news .layout-column-6,
      .all-news .layout-column-7,
-     .all-news .layout-column-8 {
+     .all-news .layout-column-8,
+     .all-news .layout-column-9 {
          display: block;
          margin-left: 20px;
  } 
- }
- 
- .all-news .layout-column-6 {
-     order: 1;
-   }
- 
- .all-news .layout-column-3 {
-     order: 4;
- }
- 
- .all-news .layout-column-4 {
-     order: 3;
- }
- 
- .all-news .layout-column-5 {
-     order: 2;
  }
  
  .background-eighth-news {
@@ -978,6 +956,15 @@ header nav ul li a.active,
  .background-five-news {
     background-image: url("img/spetial-offer.jpg");
     background-size: contain;
+     background-repeat: no-repeat;
+    padding-bottom: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid #ff9d2a;
+ }
+ .background-ten-news {
+    background-image: url("img/photozvitnewyear/3.jpg");
+    background-size: cover;
      background-repeat: no-repeat;
     padding-bottom: 100%;
     margin-left: 2%;
