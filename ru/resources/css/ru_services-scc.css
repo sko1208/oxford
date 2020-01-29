@@ -23,13 +23,13 @@
 
 .services,
 .pattern4 {
-    background-image: url("img/background-services2.jpg");
+    background-image: url("../../../resources/css/img/background-services2.jpg");
     background-size: contain;
     padding-bottom: 50px;
 }
 
 .contacts {
-    background-image: url("img/background-contacts.jpg");
+    background-image: url("../../../resources/css/img/background-contacts.jpg");
     background-size: contain;
     background-position: center;
     background-attachment: fixed;
@@ -45,6 +45,7 @@
 }
 .news-page {
     background-image: url("img/cupcakes-2887270_1920.jpg");
+    background-attachment: fixed;
 }
 
 .icon-content-page {
@@ -239,10 +240,10 @@
 }
 /*Страница news.html*/
 .news-page {
-    background-image: url("img/cupcakes-2887270_1920.jpg");
+    background-image: url("../../../resources/css/img/cupcakes-2887270_1920.jpg");
     background-size: cover;
     padding-bottom: 20px;
-    
+    background-attachment: fixed;
 }
 .main-newsHead {
     margin-top: 35px;
@@ -574,6 +575,6 @@
 
 /*Страница aboutus*/
 .aboutus {
-    background-image: url("../css/img/background-aboutus.jpg");
+    background-image: url("../../../resources/css/img/background-aboutus.jpg");
     background-attachment: fixed;
 }
