@@ -333,17 +333,17 @@ header nav ul li a.active,
 }
 @media (min-width: 640px) {
     .banner .content h1 {
-        font-size: 20px; 
+        font-size: 17px; 
     }    
 }
 @media (min-width: 800px) {
     .banner .content h1 {
-        font-size: 25px; 
+        font-size: 20px; 
     }    
 }
 @media (min-width: 960px) {
     .banner .content h1 {
-        font-size: 30px; 
+        font-size: 25px; 
     }    
 }
 .video-contents {
