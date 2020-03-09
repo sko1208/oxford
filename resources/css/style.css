@@ -827,7 +827,8 @@ header nav ul li a.active,
  .all-news .layout-column-7,
  .all-news .layout-column-8,
  .all-news .layout-column-9,
- .all-news .layout-column-10 {
+ .all-news .layout-column-10,
+ .all-news .layout-column-11 {
     width: 250px;
     margin-top: 20px;
     padding-top: 3px;
@@ -864,21 +865,17 @@ header nav ul li a.active,
  
  
  @media (min-width: 960px) {
-     .all-news .layout-column-8,
-     .all-news .layout-column-9   {
+     .all-news .layout-column-9,
+     .all-news .layout-column-10   {
          display: block;
          margin-left: 20px;
  }
  }
  
  @media (min-width: 1140px) {
-     .all-news .layout-column-4,
-     .all-news .layout-column-5,
-     .all-news .layout-column-3,
-     .all-news .layout-column-6,
-     .all-news .layout-column-7,
      .all-news .layout-column-8,
-     .all-news .layout-column-9 {
+     .all-news .layout-column-9,
+     .all-news .layout-column-10 {
          display: block;
          margin-left: 20px;
  } 
@@ -966,14 +963,19 @@ header nav ul li a.active,
     margin-right: 2%;
     border: 1px solid #ff9d2a;
  }
- .background-ten-news {
+ .background-ten-news,
+ .background-eleven-news {
     background-image: url("img/photozvitnewyear/3.jpg");
     background-size: cover;
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     padding-bottom: 100%;
     margin-left: 2%;
     margin-right: 2%;
     border: 1px solid #ff9d2a;
+ }
+ .background-eleven-news {
+    background-image: url("img/news20200308.jpg");
+    background-size: cover;
  }
  
  .text-first-news {
