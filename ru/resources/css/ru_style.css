@@ -1610,7 +1610,7 @@ textarea.input100 {
 }
 /* Раздел с поделками на главной странице */
 .craft-block {
-    background-image: url("../../../resources/css/img/pattern-1008151_1280.png");
+    background-image: url("img/pattern-1008151_1280.png");
     background-size: contain;
     width: 100%;
     color: #515151;
@@ -1621,6 +1621,7 @@ textarea.input100 {
 
 .craft-block_contener {
     display: flex;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
@@ -1640,8 +1641,10 @@ textarea.input100 {
     font-size: 1.5rem;
     border: 1px solid #ff9d2a;
 }
+
+
 @media (min-width: 320px) {
-    .craft-block_contener .layout-column-4 { 
+    .craft-block_contener .layout-column-1 { 
         display: none;
     }
 }
@@ -1657,32 +1660,30 @@ textarea.input100 {
     .craft-block_contener  { 
         width: 100%;
     }
-    .craft-block_contener .layout-column-4 { 
+    .craft-block_contener .layout-column-1 { 
         display: block;
     }
 }
 @media (min-width: 740px) {
-    .craft-block_contener .layout-column-4 { 
+    .craft-block_contener .layout-column-1 { 
         display: block;
     }
 }
 @media (min-width: 827px) {
-    .craft-block_contener .layout-column-4 { 
+    .craft-block_contener .layout-column-1 { 
         display: none;
     }
 }
 @media (min-width: 960px) {
-    .craft-block_contener .layout-column-4 { 
+    .craft-block_contener .layout-column-1 { 
         display: none;
     }
 }
 @media (min-width: 1098px) {
-    .craft-block_contener .layout-column-4 { 
+    .craft-block_contener .layout-column-1 { 
         display: block;
     }
-}
-
-.img-craft {
+}.img-craft {
     margin-top: 4px;
     margin-left: 4px;
     margin-right: 4px;
