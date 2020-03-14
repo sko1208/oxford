@@ -1614,7 +1614,7 @@ textarea.input100 {
 }
 /* Раздел с поделками на главной странице */
 .craft-block {
-    background-image: url("img/pattern-1008151_1280.png");
+    background-image: url("../../../resources/css/img/pattern-1008151_1280.png");
     background-size: contain;
     width: 100%;
     color: #515151;
