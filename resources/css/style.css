@@ -829,7 +829,8 @@ header nav ul li a.active,
  .all-news .layout-column-9,
  .all-news .layout-column-10,
  .all-news .layout-column-11,
- .all-news .layout-column-12 {
+ .all-news .layout-column-12,
+ .all-news .layout-column-13 {
     width: 250px;
     margin-top: 20px;
     padding-top: 3px;
@@ -874,7 +875,7 @@ header nav ul li a.active,
  @media (min-width: 1140px) {
      .all-news .layout-column-9,
      .all-news .layout-column-10,
-     .all-news .layout-column-11 {
+     .all-news .layout-column-12 {
          display: block;
          margin-left: 20px;
  } 
@@ -956,7 +957,7 @@ header nav ul li a.active,
  .background-five-news {
     background-image: url("img/spetial-offer.jpg");
     background-size: contain;
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     padding-bottom: 100%;
     margin-left: 2%;
     margin-right: 2%;
@@ -980,6 +981,15 @@ header nav ul li a.active,
  .background-12-news {
     background-image: url("img/news_jpg/news_2020_03_12.jpg");
     background-size: cover;     
+ }
+ .background-13-news {
+    background-image: url("img/news13.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid #ff9d2a;
  }
  
  .text-first-news {
